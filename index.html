@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacker App</title>
+</head>
+<body id="body-id">
+    <link rel="stylesheet" href="style.css">
+    <!-- <pre id="textContainer" contenteditable="true"></pre>
+     <script src="index.js"></script>
+     <script>
+        const speed = 15;
+        textContainer.focus();
+        let index = 0;
+        textContainer.addEventListener("input", function () {
+            index += speed;
+        textContainer.textContent = text.substring(0, index);
+
+        // // move caret at the end
+        const sel = window.getSelection();
+        const range = document.createRange();
+        range.selectNodeContents(textContainer);
+        range.collapse(false);
+        sel.removeAllRanges();
+        sel.addRange(range)
+        })
+     </script>-->
+
+     <div id = "form-container">
+        <form action="">
+            <input onkeypress="hackApp()" type="text" placeholder="Name">
+            <input onkeypress="hackApp()" type="password" placeholder="Password">
+            <button onclick="hackApp()" id ="button-el">Submit</button>
+            <br><br><br><a onclick="hackApp()" id="link-el">Forgot password?</a>
+        </form>  
+     </div>
+     <script src="index.js"></script>
+    </body> 
+
+<!--
+1. Create a normal looking form box with space for a username, password, forgot password link and a submit button.
+2. On clicking submit or the forgot password link, "hacking" starts.
+-->
+</html>

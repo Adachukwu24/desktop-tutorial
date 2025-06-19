@@ -1,0 +1,44 @@
+body {
+    background-color: midnightblue;
+}
+#form-container {
+padding: 0 40px;
+position: absolute;
+top: 0; bottom: 0; left: 0; right: 0;
+margin: auto; width: 40vh; height: 40vh;
+background: rgb(6, 6, 85);
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 10px;
+}
+input {
+    width: 40vh;
+    height: 40px;
+    margin-bottom: 5px;
+    font-size: 2vh;
+}
+input:focus {
+    outline: none;
+}
+
+button {
+    margin-left: 10vh;
+    margin-top: 20px;
+    width: 20vh;
+    height: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: none ;
+}
+button:hover {
+    color: aqua;
+    background-color: rgba(25, 25, 112, 0.329);
+    transition: 0.4s;
+}
+a {
+    color:  rgb(206, 195, 195);
+}
+a:hover{
+    transition: 0.5s;
+    color: aquamarine;
+}

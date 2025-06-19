@@ -1,0 +1,15 @@
+body {
+    background: black;
+    transition: 0.7;
+}
+body::before {
+    background: black;
+}
+pre,p {
+    color: lime;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+pre:focus {
+    outline: none;
+}
